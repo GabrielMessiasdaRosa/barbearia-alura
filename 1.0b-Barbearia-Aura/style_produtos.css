@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    background: url(img/bgheader.jpg);
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    
+
+}
+.titulo{
+    
+    font-family: 'Monoton', cursive;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px auto;
+    color: #C78C19;
+    font-size: 52px;
+    
+}
+table{
+    position: absolute;
+    top: 150px;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 25px;
+}
+table tr, th,td{
+    color: white;
+    padding: 10px 20px;
+}
+h1 {
+    width: 177px;
+    height: 250px;
+    margin:auto;
+}
+nav {
+    position: absolute;
+    top: 170px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: #C78C19;
+    font-weight: 900;
+    padding: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: 1px solid #C78C19;
+    border-radius: 2px 10px 2px 10px ;
+}
+nav a:hover {
+    border: 1px solid #C78C19;
+    border-radius: 10px 10px 10px 2px;
+    color: rgb(255, 255, 255);
+}
+nav a:active{
+    transition: 0.1s;
+    border: 1px solid #C78C19;
+    border-radius: 10px 10px 10px 2px;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+.endereco{
+    position: absolute;
+    right: 0;
+    top: 270px;
+    color: white;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.titulos{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid black ;
+    border-radius: 3px 80px 3px 80px;
+    transition: 0.3s;
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+    border-radius: 80px 80px 80px 3px;
+    
+}
+.produtos li:active{
+    border-color: blanchedalmond;
+}
+
+
+
+.produtos h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: #af7b12;
+}
+
+.descricao_produto {
+    font-size: 18px;
+    font-weight: 300;    
+}
+.preco_produto{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0 0;
+}
+footer {
+    text-align: center;
+    background:url(img/bg.jpg);
+    padding: 40px 0;
+}
+.direitos {
+    color: white;
+    font-weight: 300;
+}
