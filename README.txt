@@ -1,5 +1,5 @@
 Notas de atualização. 
-Iniciei este projeto no dia 1 de novebro de 2020. Hoje, no dia 3 alcancei um patamar no qual 
+Iniciei este projeto no dia 1 de novembro de 2020. Hoje, no dia 3 alcancei um patamar no qual 
 eu acho que deve ser registrado. 
 
 Comecei a levar as coisas mais a serio a partir da versao 1.0 beta. 
@@ -39,7 +39,7 @@ Incrivel, comecei a tomar gosto pela coisa. A cada dia que passa me sinto um pin
 
 Estou ansioso pra conhecer melhor o js e suas frameworks. 
 
-Depois da versao zero, tomei um rumo, resolvi reestilizar, sem ajuda de professor. Eu queria saber se eu sabia kkkkkk 
+Depois da versao zero, tomei um rumo, resolvi reestilizar, sem ajuda de professor. Eu queria saber se eu sabia e
 comecei pela pagina principal que estava horrivel. Parecia um site da deep web de 1995.
 
 Do inicio. 
