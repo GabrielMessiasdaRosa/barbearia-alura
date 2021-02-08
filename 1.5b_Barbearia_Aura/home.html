@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barbearia Alura</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style_home.css" />
+</head>
+
+    <body>
+
+        <header>
+        <section class="caixa_header">
+            <div class="conteudo_header">
+                <p class="titulo_header">Barbearia Alura</p>
+                <div class="logo_header">
+                    <img src="img/logo-branco.png" />
+                </div>
+                <div class="caixa_horario">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta</td>
+                                <td>8h ~ 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="endereco">Avenida Aprendizado nº 1000</p>
+                </div>
+            </div>
+        </section>
+        </header>
+
+        <main>
+            <section class="caixa_resumo">
+                <div class="conteudo_resumo">
+                    <h2 class="titulos">Um pouco da nossa historia</h2>
+                    <p>
+                        Localizada no coração da cidade a Barbearia
+                        Alura traz para o mercado o que há de melhor
+                        para o seu cabelo e barba. Fundada em 2019, a
+                        Barbearia Alura já é destaque na cidade e conquista
+                        novos clientes a cada dia.
+                    </p>
+                    <h3>
+                        Nossa missão é: "Proporcionar auto-estima e
+                        qualidade de vida aos clientes".
+                    </h3>
+                    <p>
+                        Oferecemos profissionais experientes e antenados
+                        às mudanças no mundo da moda. O atendimento possui
+                        padrão de excelência e agilidade, garantindo qualidade
+                        e satisfação dos nossos clientes.
+                    </p>
+                </div>
+            </section>
+
+            <section class="caixa_localizacao">
+                <div class="conteudo_localizacao">
+                    <h3>Nosso Estabelecimento</h3>
+                    <p>Nosso estabelecimento esta localizado no coração da cidade!</p>
+                    <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.6998497925463!2d-49.25993326359393!3d-25.44496927744336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce46036dd62cd%3A0xbd6a2b01d84aa444!2sR.%20Alm.%20Gon%C3%A7alves%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1604335424656!5m2!1spt-BR!2sbr"
+                        width="100%" height="400" frameborder="0" style="color: transparent;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="caixa_beneficios">
+                <div class="conteudo_beneficios">
+                    <h3>Diferenciais</h3>
+                    <div class="caixa_lista_beneficios">
+                        <ul class="lista_beneficios">
+                            <li class="itens">Atendimento</li>
+                            <li class="itens">Espaço Diferenciado</li>
+                            <li class="itens">Localizaçao</li>
+                            <li class="itens">Equipe Profissional</li>
+                            <li class="itens">Pontualidade</li>
+                            <li class="itens">Limpeza</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="caixa_video">
+                <h3>Dicas de cuidado</h3>
+                <div class="video">
+                    <iframe width="100%" height="380" src="https://www.youtube.com/embed/dN0dSHzwXZA" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="caixa_produtos">
+                <div class="conteudo_produtos">
+                    <h3>Oferecemos</h3>
+                    <ul class="produtos">
+                        <li>
+                            <h2>Cabelo</h2>
+                            <img src="img/cabelo.jpg">
+                            <p class="descricao_produto">Na tesoura ou maquina, como o cliente preferir</p>
+                            <p class="preco_produto">R$25,00</p>
+                        </li>
+                        <li>
+                            <h2>Barba</h2>
+                            <img src="img/barba.jpg">
+                            <p class="descricao_produto">Corte e desenho profissional de barba</p>
+                            <p class="preco_produto">R$18,00</p>
+                        </li>
+                        <li>
+                            <h2>Cabelo + Barba</h2>
+                            <img src="img/cabelo+barba.jpg">
+                            <p class="descricao_produto">Pacote completo de cabelo e barba</p>
+                            <p class="preco_produto">R$35,00</p>
+
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="caixa_contato">
+                <div class="conteudo_contato">
+                    <h3>Entre em contato</h3>
+                    <form>
+                        <label for="nome_sobrenome">Nome e sobrenome*</label>
+                        <input type="text" id="nome_sobrenome" class="input_padrao" required>
+
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" class="input_padrao" required placeholder="seuemail@dominio.com">
+
+                        <label for="telefone">Telefone*</label>
+                        <input type="tel" id="telefone" class="input_padrao" required placeholder="(XX) X XXXX-XXXX">
+
+                        <label for="mensagem">Critica ou Sugestao</label>
+                        <textarea id="mensagem" cols="51" rows="10" class="input_padrao"></textarea>
+                        <fieldset>
+                            <legend>Como prefere o nosso contato?</legend>
+                            <label for="email_radio"><input type="radio" name="contato" id="email_radio">Email</label>
+                            <label for="telefone_radio"><input type="radio" name="contato" id="telefone_radio">Telefone</label>
+                            <label for="wpp_radio"><input type="radio" name="contato" id="wpp_radio" checked>Whatsapp</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Qual o horario que prefere ser atendido?</legend>
+                            <select name="periodos" id="periodo">
+                                <option value="">Manha</option>
+                                <option value="">Tarde</option>
+                                <option value="">Noite</option>
+                            </select>
+                        </fieldset>
+                        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por E-mail?</label>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer>
+            <section class="caixa_footer">
+                <div class="conteudo_footer">
+                <img src="img/logo-branco.png" alt="Logo da Barbearia Alura">
+                <p class="direitos">© Todos os direitos reservados Alura, 2020</p>
+            </div>
+            </section>
+        </footer>
+    </body>
+</html>

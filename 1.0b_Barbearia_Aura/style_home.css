@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    background: url(img/bgheader.jpg);
+}
+.caixa_header {
+    position: relative;
+    width: 940px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    
+
+}
+.titulo{
+    
+    font-family: 'Monoton', cursive;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px auto;
+    color: #C78C19;
+    font-size: 52px;
+    
+}
+table{
+    position: absolute;
+    top: 150px;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 25px;
+}
+table tr, th,td{
+    color: white;
+    padding: 10px 20px;
+}
+h1 {
+    width: 177px;
+    height: 250px;
+    margin:auto;
+}
+nav {
+    
+    position: absolute;
+    top: 170px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0px 0 10px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #C78C19;
+    font-weight: 900;
+    padding: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: 1px solid #C78C19;
+    border-radius: 2px 10px 2px 10px ;
+}
+nav a:hover {
+    border: 1px solid #C78C19;
+    border-radius: 10px 10px 10px 2px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+nav a:active{
+    transition: 0.1s;
+    border: 1px solid #C78C19;
+    border-radius: 10px 10px 10px 2px;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+
+.endereco{
+    position: absolute;
+    right: 0;
+    top: 270px;
+    color: white;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+
+.caixa_resumo {
+    width: 940px;
+    height: 320px;
+    margin: 35px auto;
+    padding: 15px 0;
+    text-align: justify;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+}
+.caixa_resumo h2{
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #af7b12;
+    
+}
+
+.caixa_resumo h3 {
+    text-align: center;
+    width: 500px;
+    margin: 15px auto;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: #af7b12;
+}
+main h4 {
+    text-align: center;
+    width: 500px;
+    margin: 180px auto 0;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #af7b12;
+}
+.caixa_resumo p {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+.caixa_beneficios{
+    width: 1280px;
+    height: 700px;
+    margin: 50px auto;
+    border-radius: 5px 90px 5px 90px;
+    background-image: url(img/beneficios.jpg);
+    background-repeat: no-repeat;
+}
+.caixa_beneficios ul li{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 35px 30px;
+    padding: 30px 15px;
+    text-shadow: 5px;
+}
+
+
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px 0;
+}
+.direitos {
+    color: white;
+    font-weight: 300;
+}
