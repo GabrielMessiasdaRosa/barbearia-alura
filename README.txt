@@ -7,8 +7,6 @@ Estou tomando gosto pela coisa. E estou gostando dos resultados.
 
 Pretendo em breve começar um projeto pessoal e nao do curso. Ansioso por isso! 
 
-Logo, vou atualizar ao maximo este site, com este nome mesmo. O do curso da Alura.
-
 Anteriormente ... 
 
 Na primeira versao do projeto, eu tentei seguir a risca os conhecimentos passados pelo 
