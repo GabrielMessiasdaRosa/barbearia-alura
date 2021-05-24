@@ -12,5 +12,9 @@
     <td>HTML</td>
     <td>CSS</td>
   </tr>
+  <tr>
+    <td>5</td>
+    <td>3</td>
+  </tr>
   
 </table>
